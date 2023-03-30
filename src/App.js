@@ -18,7 +18,9 @@ function App() {
           <Navbar.Text>
           <a 
             className='developed-by'
-            href="noctemdevelopment.com" 
+            href="http://jifwalker.com" 
+            target='_blank'
+            rel='noopener noreferrer'
             alt="Link to developer page">
               Developed By: Noctem Development
           </a>
