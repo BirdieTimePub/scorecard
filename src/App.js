@@ -1,6 +1,7 @@
 //the main js file intentionally kept simple for ease of reading.
 
 import './App.css'
+import { Navbar } from 'react-bootstrap'
 import Scorecard from  './components/Scorecard'
 import Rules from './components/Rules'
 
@@ -13,6 +14,17 @@ function App() {
         <Rules />
       </header>
         <Scorecard />
+        <div>
+          <Navbar.Text>
+          <a 
+            className='developed-by'
+            href="noctemdevelopment.com" 
+            alt="Link to developer page">
+              Developed By: Noctem Development
+          </a>
+          </Navbar.Text>
+
+        </div>
       </div>
   )
 }
