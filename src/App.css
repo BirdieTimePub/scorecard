@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+input {
+  width: auto;
+}
+
+.par-align {
+  justify-content: center;
+}
+
+.table {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* padding: 1px; */
+  width: 30px;
+  padding-left: .5em;
+  padding-right: .5em;
+  justify-content: center;
+}

@@ -1,15 +1,21 @@
+//component for displays the rules and logo
+
 import React from 'react'
 import  Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
+import Image from 'react-bootstrap/Image'
 
 const Rules = () => {
-    
+
     return (
-    <div className='rules'>
-        <Container>
+        <Container fluid>
             <Row>
-                <Col md='auto'>
+                <Col>
+                    <Image 
+                        fluid 
+                        alt="Birdie Time Pub, Mini Golf Pub & Sports Bar in Portland, Oregon" 
+                        src="https://fh-sites.imgix.net/sites/6109/2022/12/16111619/Vectorized-logo-4-e1672226239606.png?auto=compress%2Cformat&w=600&fit=auto"></Image>
                     <p>
                         <b>Rule 1:</b> All players will hit their first ball.
                     </p>
@@ -25,11 +31,6 @@ const Rules = () => {
                     <p>
                         <b>Rule 5:</b> An "out of bounds" ball counts as a 1 stroke penalty.
                     </p>
-                </Col>
-                <Col md='auto'>
-                    <img alt="Birdie Time Pub, Mini Golf Pub & Sports Bar in Portland, Oregon" src="https://fh-sites.imgix.net/sites/6109/2022/12/16111619/Vectorized-logo-4-e1672226239606.png?auto=compress%2Cformat&w=600&fit=max            "></img>
-                </Col>
-                <Col md='auto'>
                     <p>
                         <b>Rule 6:</b> Please be courteous of other groups playing in front or behind you.
                     </p>
@@ -42,7 +43,6 @@ const Rules = () => {
                 </Col>
             </Row>
         </Container>
-    </div>
     )
 }
 
