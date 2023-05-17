@@ -39,6 +39,9 @@ const Player = () => {
             if (event.target.value > 8) {
                 value = 8
             }
+            if (event.target.value < 0) {
+                value = 0
+            }
             setPlayer({
                 ...player,
                 [event.target.name]: parseInt(value),       
