@@ -22,7 +22,7 @@ function App() {
             target='_blank'
             rel='noopener noreferrer'
             alt="Link to developer page">
-              Developed By: Noctem Development
+              Developed By: James Walker
           </a>
           </Navbar.Text>
 
