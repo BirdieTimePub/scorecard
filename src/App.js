@@ -1,32 +1,28 @@
+/* eslint-disable no-unused-vars */
 //the main js file intentionally kept simple for ease of reading.
 
 import './App.css'
 import { Navbar } from 'react-bootstrap'
 import Scorecard from  './components/Scorecard'
 import Rules from './components/Rules'
+import BannerAd from './components/BannerAd'
+import DevelopedBy from './components/DevelopedBy'
 
 
 function App() {
+
 
   return (
     <div>
       <header className="App-header">
         <Rules />
       </header>
+        <BannerAd />
         <Scorecard />
-        <div>
-          <Navbar.Text>
-          <a 
-            className='developed-by'
-            href="http://jifwalker.com" 
-            target='_blank'
-            rel='noopener noreferrer'
-            alt="Link to developer page">
-              Developed By: James Walker
-          </a>
-          </Navbar.Text>
+        <footer>
+        <DevelopedBy />
+        </footer>
 
-        </div>
       </div>
   )
 }

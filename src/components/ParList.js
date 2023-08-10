@@ -4,7 +4,7 @@ import '../App.css'
 
 const ParList = () => {
     return (
-        <thead className='text-center'>
+        <thead id='par-list' className='text-center'>
         <tr>
             <th>Hole</th>
             <th>1</th>

@@ -9,10 +9,10 @@ import Image from 'react-bootstrap/Image'
 const Rules = () => {
 
     return (
-        <Container fluid>
+        <Container id='rules' fluid>
             <Row>
                 <Col>
-                    <Image 
+                    <Image id='main-logo'
                         fluid 
                         alt="Birdie Time Pub, Mini Golf Pub & Sports Bar in Portland, Oregon" 
                         src="https://fh-sites.imgix.net/sites/6109/2022/12/16111619/Vectorized-logo-4-e1672226239606.png?auto=compress%2Cformat&w=600&fit=auto"></Image>
