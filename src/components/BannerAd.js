@@ -2,7 +2,7 @@ import { Image } from 'react-bootstrap'
 import '../App.css'
 
 const BannerAd = () => {
-    const source = '../docs/assets/images/Scorecard-Banner.png'
+    const source = 'https://github.com/BirdieTimePub/scorecard/tree/main/src/docs/assets/images/Scorecard-Banner.png'
     
     return (
 
