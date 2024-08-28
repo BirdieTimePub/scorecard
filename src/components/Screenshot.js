@@ -7,8 +7,11 @@ import ExportAsImage from "../utils/ExportAsImage"
 const Screenshot = ({scorecardRef}) => {
 
     return(
-        <div id='screenshot-button'>
-            <Button onClick={() => ExportAsImage(scorecardRef.current, "scorecard.jpeg")}>
+        <div >
+            <Button 
+                onClick={() => ExportAsImage(scorecardRef.current, "scorecard.jpeg")}
+                id='screenshot-button'
+            >
                 Save Scorecard
             </Button>
         </div>

@@ -61,3 +61,8 @@ input {
   padding-right: .5em;
   justify-content: center;
 }
+
+
+#screenshot-button {
+  background-color: #18658F;
+}
