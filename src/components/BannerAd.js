@@ -1,20 +1,24 @@
-import { Image } from 'react-bootstrap'
-import '../App.css'
+    import React from 'react'
+    import { Image } from 'react-bootstrap'
+    import '../App.css'
 
-const BannerAd = () => {
-    const source = 'https://github.com/BirdieTimePub/scorecard/tree/main/src/docs/assets/images/Scorecard-Banner.png'
-    
-    return (
-
-        <Image 
-            fluid
-            key={Date.now()}
-            alt="Ad Space"
-            id='banner-ad'
-            src= {source ? source : null}
-        />
-    )
-}
+    const BannerAd = () => {
+        const Banner = 'https://github.com/BirdieTimePub/scorecard/blob/main/src/docs/assets/images/Scorecard-Banner.png?raw=true'
 
 
-export default BannerAd
+        return (
+
+            <Image 
+                fluid
+                key={Date.now()}
+                type="png"
+                alt="Ad Space"
+                id='banner-ad'
+                header='content-type:"image/png'
+                src= {Banner}
+            />
+        )
+    }
+
+
+    export default BannerAd
